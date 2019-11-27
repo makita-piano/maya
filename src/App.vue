@@ -7,7 +7,7 @@
         >
           <VAppBarNavIcon />
 
-          <VToolbarTitle>vrgames-index</VToolbarTitle>
+          <VToolbarTitle>加々見茉耶 official website</VToolbarTitle>
 
           <VSpacer />
 
