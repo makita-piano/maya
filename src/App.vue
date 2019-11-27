@@ -11,7 +11,7 @@
 <script>
 export default {
 	mounted(){
-		const title = "official website";
+		const title = "加々見 茉耶 official webpage";
 		const description = "説明文";
 		document.title = title;
 		document.querySelector("meta[property='og:title']")
