@@ -105,6 +105,9 @@
     }
 
     /* normal */
+    #top-jpg{
+        width: 100%;
+    }
 }
 
 @media (min-width: 769px) {
@@ -114,4 +117,7 @@
     }
 
     /* normal */
+    #top-jpg{
+        width: 60%;
+    }
 }
