@@ -12,6 +12,21 @@ export default new Router({
 			path: "/",
 			name: "Index",
 			component: Index
+		},
+		{
+			path: "/profile",
+			name: "Index",
+			component: Index
+		},
+		{
+			path: "/information",
+			name: "Index",
+			component: Index
+		},
+		{
+			path: "/contact",
+			name: "Index",
+			component: Index
 		}
 	]
 });
