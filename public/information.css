@@ -1,0 +1,14 @@
+.information > li{
+    margin-bottom: 1rem;
+}
+.information > li > div:nth-child(1){
+    font-size: .8rem;
+    color: #999;
+}
+.information > li > div:nth-child(2){
+    background:url("tone.png") left no-repeat;
+    padding: .3rem 0 .7rem 2rem;
+}
+.information > li > div:nth-child(2) div{
+    text-decoration: underline;
+}

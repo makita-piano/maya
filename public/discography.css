@@ -1,0 +1,53 @@
+#body .disco > div {
+    padding: 2rem 1rem;
+    text-align: center;
+    display: table;
+}
+#body .disco > div > div {
+    margin: auto;
+}
+
+
+.disco a{
+    margin: auto;
+}
+
+.disco img{
+    width: 100%;
+}
+.disco .pointer img{
+    width: 7px;
+}
+
+.bar{
+    display: table-cell;
+    vertical-align: middle;
+}
+.pointer{
+    display: table-cell;
+}
+
+.bar span{
+    height: 3px;
+    width: 50px;
+    background: #000;
+    display: block;
+}
+.year{
+    font-size: .8rem;
+    color: #999;
+    margin-top: .5rem;
+}
+
+.sub_title{
+    font-size: .8rem;
+    margin-top: .5rem;
+}
+
+.main_title{
+    font-size: 1.3rem;
+    font-weight: bold;
+    letter-spacing: .3rem;
+    text-indent: .3rem;
+    margin-top: .5rem;
+}
