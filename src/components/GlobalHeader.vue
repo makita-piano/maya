@@ -2,7 +2,7 @@
   <header>
     <div class="grid-center col-12 margin-top-1">
         <a href="/" id="home" style="z-index: 9999">
-            <img src="music_piano.png" width="48px" height="48px" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: .5rem 0;vertical-align: middle;box-sizing: content-box">
+            <img src="music_piano.png" width="48px" height="48px" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: .5rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
         </a>
     </div>
     <div class="grid display-none-mobile menu">

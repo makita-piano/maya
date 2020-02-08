@@ -7,7 +7,7 @@
                 official page
             </div>
     <div class="align-center margin-bottom-3">
-      <img id="top-jpg" src="top.jpg" style="padding: 1rem">
+      <img id="top-jpg" src="kagamimaya.jpg" style="padding: 1rem" alt="kagamimaya-image">
     </div>
     <div class="grid col-12 margin-bottom-2">
       <div class="grid-top-center col-6_sm-12 padding-0-2-pc padding-0-05-mobile">
