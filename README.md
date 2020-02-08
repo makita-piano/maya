@@ -1,2 +1,2 @@
 #purpose
-* create vrgames-index site
+* create kagamimaya.site
