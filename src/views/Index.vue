@@ -58,35 +58,19 @@
         </div>
         <div class="col-12">
           <ul class="grid social">
-          <p class="col-12" style="text-align: center">comming soon</p>
-          <!--
             <li class="col-6_sm-12">
-              <div class="twitter">
-                <a href="https://twitter.com/aichan_nel" target="_blank"  class="grid">
+              <div class="insta">
+                <a href="https://www.instagram.com/maya_kagami/" target="_blank"  class="grid">
                   <div class="col-1 social-icon">
-                    <img src="twitter_white.png">
+                    <i class="fab fa-instagram"></i>
                   </div>
                   <div class="col social-text">
-                    <div>Twitter</div>
-                    <div class="social-name">@xxx</div>
+                    <div>Instagram</div>
+                    <div class="social-name">@maya_kagami</div>
                   </div>
                 </a>
               </div>
             </li>
-            <li class="col-6_sm-12">
-              <div class="youtube">
-                <a href="https://www.youtube.com/channel/UC4YaOt1yT-ZeyB0OmxHgolA" target="_blank" class="grid">
-                  <div class="col-1 social-icon">
-                    <img src="youtube_white.png">
-                  </div>
-                  <div class="col social-text">
-                    <div>YouTube</div>
-                    <div class="social-name">Xxx Channel</div>
-                  </div>
-                </a>
-              </div>
-            </li>
-            -->
           </ul>
         </div>
       </div>
