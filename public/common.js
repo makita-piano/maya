@@ -1,9 +1,5 @@
 $(function(){
-    window.onload = function(){
-        $('[id^="load"]').each(function(){
-            $(this).load($(this)[0].id.substring(4,100) + ".html");
-        });
-    }
+    /* menu */
     $(document).on('click','.menu-trigger',function(){
         if($(this).hasClass('active')){
             $(this).removeClass('active');
@@ -18,6 +14,8 @@ $(function(){
             $('#home').css('z-index',0);
         }
     });
+    
+    /* center-circle */
     $('.overlay').on('click',function(){
         if($(this).hasClass('open')){
             $(this).removeClass('open');

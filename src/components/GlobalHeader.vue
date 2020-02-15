@@ -1,0 +1,105 @@
+<template>
+  <header>
+    <div class="grid-center col-12 margin-top-1">
+        <a href="/" id="home" style="z-index: 9999">
+            <img src="music_piano.png" width="48px" height="48px" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: .5rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
+        </a>
+    </div>
+    <div class="grid display-none-mobile menu">
+        <div class="col-3">
+            <a href="/profile">
+                <div class="col-12">
+                    プロフィール
+                </div>
+                <div class="col-12">
+                    Profile
+                </div>
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="/information">
+                <div class="col-12">
+                    お知らせ
+                </div>
+                <div class="col-12">
+                    Information
+                </div>
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="/discography">
+                <div class="col-12">
+                    ディスコグラフィー
+                </div>
+                <div class="col-12">
+                    Discography
+                </div>
+            </a>
+        </div>
+        <div class="col-3">
+            <a href="/contact">
+                <div class="col-12">
+                    お問い合わせ
+                </div>
+                <div class="col-12">
+                    Contact
+                </div>
+            </a>
+        </div>
+    </div>
+    <nav class="menu-container display-none-pc">
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="/profile">
+                    <div class="col-12">
+                        プロフィール
+                    </div>
+                    <div class="col-12">
+                        Profile
+                    </div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="/information">
+                    <div class="col-12">
+                        お知らせ
+                    </div>
+                    <div class="col-12">
+                        Information
+                    </div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="/discography">
+                    <div class="col-12">
+                        ディスコグラフィー
+                    </div>
+                    <div class="col-12">
+                        Discography
+                    </div>
+                </a>
+            </li>
+            <li class="menu-item">
+                <a href="/contact">
+                    <div class="col-12">
+                        お問い合わせ
+                    </div>
+                    <div class="col-12">
+                        Contact
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="menu-trigger display-none-pc">
+            <div>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="menu-text">menu</span>
+            </div>
+        </div>
+    </nav>
+  </header>
+</template>
+
+
