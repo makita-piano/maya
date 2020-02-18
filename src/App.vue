@@ -1,7 +1,9 @@
 <template>
   <div id="app">
     <global-header />
-    <router-view/>
+    <transition name="router-transition">
+      <router-view/>
+    </transition>
     <global-footer />
   </div>
 </template>
@@ -22,3 +24,19 @@ export default {
   }
 };
 </script>
+
+<style>
+.router-transition-enter-active {
+animation: fadeIn 3s;
+}
+@keyframes fadeIn {
+from {
+transform: translateY(-10px);
+opacity: 0.3;
+}
+to {
+transform: translateY(0);
+opacity: 1;
+}
+}
+</style>

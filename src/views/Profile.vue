@@ -5,9 +5,9 @@
                 プロフィール
             </div>
             <div class="ancher">
-                <a href="/">
-                    トップページ
-                </a>
+        <RouterLink to="/">
+            トップページ
+        </RouterLink>
                 > プロフィール
             </div>
         </div>

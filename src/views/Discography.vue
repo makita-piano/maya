@@ -5,9 +5,9 @@
         ディスコグラフィー
     </div>
     <div class="ancher">
-        <a href="/">
+        <RouterLink to="/">
             トップページ
-        </a>
+        </RouterLink>
         > ディスコグラフィ
     </div>
 </div>

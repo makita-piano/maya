@@ -5,9 +5,9 @@
         お知らせ
     </div>
     <div class="ancher">
-        <a href="/">
+        <RouterLink to="/">
             トップページ
-        </a>
+        </RouterLink>
         > お知らせ
     </div>
 </div>
