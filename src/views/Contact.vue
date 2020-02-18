@@ -5,9 +5,9 @@
         お問い合わせ
     </div>
     <div class="ancher">
-        <a href="/">
+        <RouterLink to="/">
             トップページ
-        </a>
+        </RouterLink>
          > お問い合わせ
     </div>
 </div>

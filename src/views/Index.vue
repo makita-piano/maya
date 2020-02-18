@@ -47,9 +47,9 @@
        
         </ul>
         <div class="index-information-list">
-          <a href="information">
+        <RouterLink to="/information">
             一覧
-          </a>
+        </RouterLink>
         </div>
       </div>
       <div class="grid-top col-6_sm-12 padding-0-2-pc padding-0-05-mobile">

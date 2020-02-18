@@ -1,93 +1,93 @@
 <template>
   <header>
     <div class="grid-center col-12 margin-top-1">
-        <a href="/" id="home" style="z-index: 9999">
+        <RouterLink to="/" id="home" style="z-index: 9999">
             <img src="music_piano.png" width="48px" height="48px" style="background-color: white;border-radius: 3rem;padding: .3rem;margin: .5rem 0;vertical-align: middle;box-sizing: content-box" alt="piano">
-        </a>
+        </RouterLink>
     </div>
     <div class="grid display-none-mobile menu">
         <div class="col-3">
-            <a href="/profile">
+            <RouterLink to="/profile">
                 <div class="col-12">
                     プロフィール
                 </div>
                 <div class="col-12">
                     Profile
                 </div>
-            </a>
+            </RouterLink>
         </div>
         <div class="col-3">
-            <a href="/information">
+            <RouterLink to="/information">
                 <div class="col-12">
                     お知らせ
                 </div>
                 <div class="col-12">
                     Information
                 </div>
-            </a>
+            </RouterLink>
         </div>
         <div class="col-3">
-            <a href="/discography">
+            <RouterLink to="/discography">
                 <div class="col-12">
                     ディスコグラフィー
                 </div>
                 <div class="col-12">
                     Discography
                 </div>
-            </a>
+            </RouterLink>
         </div>
         <div class="col-3">
-            <a href="/contact">
+            <RouterLink to="/contact">
                 <div class="col-12">
                     お問い合わせ
                 </div>
                 <div class="col-12">
                     Contact
                 </div>
-            </a>
+            </RouterLink>
         </div>
     </div>
     <nav class="menu-container display-none-pc">
         <ul class="menu">
             <li class="menu-item">
-                <a href="/profile">
+                <RouterLink to="/profile">
                     <div class="col-12">
                         プロフィール
                     </div>
                     <div class="col-12">
                         Profile
                     </div>
-                </a>
+                </RouterLink>
             </li>
             <li class="menu-item">
-                <a href="/information">
+                <RouterLink to="/information">
                     <div class="col-12">
                         お知らせ
                     </div>
                     <div class="col-12">
                         Information
                     </div>
-                </a>
+                </RouterLink>
             </li>
             <li class="menu-item">
-                <a href="/discography">
+                <RouterLink to="/discography">
                     <div class="col-12">
                         ディスコグラフィー
                     </div>
                     <div class="col-12">
                         Discography
                     </div>
-                </a>
+                </RouterLink>
             </li>
             <li class="menu-item">
-                <a href="/contact">
+                <RouterLink to="/contact">
                     <div class="col-12">
                         お問い合わせ
                     </div>
                     <div class="col-12">
                         Contact
                     </div>
-                </a>
+                </RouterLink>
             </li>
         </ul>
         <div class="menu-trigger display-none-pc">
