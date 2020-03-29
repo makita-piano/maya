@@ -14,7 +14,7 @@
     <div style="padding: 2rem .5rem 1rem;background-color: #eee">
       <ul class="information" v-for="e in info" v-bind:key="e.title">
         <li>
-          <div class="col-12">{{date_formated(e.create_at)}}</div>
+          <div class="col-12">{{date_formated(e.release_date)}}</div>
           <div class="grid col-12">
             <div class="col-12">{{e.title}}</div>
           </div>
@@ -52,7 +52,7 @@
 
     created(){
       axios
-        .get("https://klavier.microcms.io/api/v1/m_info?fields=title,texts,create_at&limit=2",{
+        .get("https://klavier.microcms.io/api/v1/m_info?fields=title,texts,release_date",{
           headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
           data: {}
       })
