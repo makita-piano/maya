@@ -1,11 +1,11 @@
 <template>
   <v-content>
-                    <div class="col-12" style="text-align: center;font-weight: bold;font-size: 1.3rem;margin-top: 1rem">
-                加々見 茉耶
-            </div>
-            <div class="col-12" style="text-align: center;font-weight: bold">
-                official page
-            </div>
+    <div class="col-12" style="text-align: center;font-weight: bold;font-size: 1.3rem;margin-top: 1rem">
+      加々見 茉耶
+    </div>
+    <div class="col-12" style="text-align: center;font-weight: bold">
+        official page
+    </div>
     <div class="align-center margin-bottom-3">
       <img id="top-jpg" src="kagamimaya.jpg" style="padding: 1rem" alt="kagamimaya-image">
     </div>
@@ -14,42 +14,20 @@
         <div class="col-12 h3">
           Information
         </div>
-        <ul class="index-information col-12">
-            <li>
-      <div class="col-12">2019.11.28</div>
-      <div class="grid col-12">
-        <div class="col-12" style="text-decoration: none">完全帰国＆1st CD発売記念リサイタル</div>
-      </div>
-      <div style="padding-left: 1.7rem;">
-    2020年2月21日(金)<br>
-    18:30開場 19:00開演<br>
-    カワイ表参道コンサートサロン パウゼ</div>
-<div style="
-    padding-left: 1.7rem;
-">
-    お申し込みは
-    <a href="https://docs.google.com/forms/d/19VN4kaN6ggv7tesPF34Dw_HOr-mJ9HXsrgh5M37KRw4/viewform"><span style="
-    text-decoration: underline;
-">こちら</span></a>
-</div>
-
-</li>
-        <li>
-            <div class="col-12">
-                2019.11.28
-            </div>
+        <ul class="index-information col-12" v-for="e in info" v-bind:key="e.title">
+          <li>
+            <div class="col-12">{{date_formated(e.release_date)}}</div>
             <div class="grid col-12">
-                  <div class="col-12" style="text-decoration: none">
-                        official pageが公開されました
-                  </div>
+              <div class="col-12">{{e.title}}</div>
             </div>
-        </li>
-
+            <div v-html="e.texts" style="padding-left: 1.7rem;">
+            </div>
+          </li>
         </ul>
         <div class="index-information-list">
-        <RouterLink to="/information">
-            一覧
-        </RouterLink>
+          <RouterLink to="/information">
+              一覧
+          </RouterLink>
         </div>
       </div>
       <div class="grid-top col-6_sm-12 padding-0-12-pc padding-0-05-mobile">
@@ -92,7 +70,17 @@
 </template>
 
 <script>
+  import axios from 'axios'
+  import moment from "moment";
+
   export default {
+
+    data () {
+      return {
+        info: undefined,
+      }
+    },
+
     mounted(){
       const title = "加々見 茉耶 official page"
       const description = "加々見 茉耶(かがみ まや)の公式ページ。ピアニスト。兵庫県生まれ。5歳よりピアノを始める。 兵庫県立西宮高等学校音楽科を卒業し、東京藝術大学音楽学部器楽科ピアノ専攻に入学。第1回 ロザリオ・マルチアーノ国際ピアノコンクール（ウィーン）第2位。併せてシューベルト賞を受賞。 "
@@ -103,6 +91,23 @@
       　.setAttribute('content', description)
       document.querySelector("meta[property='og:description']")
       　.setAttribute('content', description)
+    },
+
+    created(){
+      axios
+        .get("https://klavier.microcms.io/api/v1/m_info?fields=title,texts,release_date&limit=2",{
+          headers: { "X-API-KEY": process.env.VUE_APP_MICROCMS_KEY},
+          data: {}
+      })
+        .then(v => {
+          this.info = v.data.contents;
+      });
+    },
+
+    methods: {
+      date_formated: function(date) {
+        return moment(date).format("YYYY.MM.DD");
+      }
     }
   }
 </script>

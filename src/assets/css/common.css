@@ -284,15 +284,15 @@ footer div span{
     background:url("/tone.png") left no-repeat;
     padding: .3rem 0 .7rem 2rem;
 }
-.index-information > li > div:nth-child(2) div{
-    text-decoration: underline;
-}
 .index-information-list{
     background:url("/heon.png") left no-repeat;
     padding: .3rem 0 1rem 2.3rem;
     text-align: center;
     text-decoration: underline;
     margin: 1rem 0 2rem;
+}
+.index-information a{
+  text-decoration: underline;
 }
 .social li > div{
     width: auto;
@@ -405,6 +405,9 @@ footer div span{
 
 
 /* information */
+.information a{
+  text-decoration: underline;
+}
 .information > li{
     margin-bottom: 1rem;
 }
@@ -415,9 +418,6 @@ footer div span{
 .information > li > div:nth-child(2){
     background:url("/tone.png") left no-repeat;
     padding: .8rem 0 .7rem 2rem;
-}
-.information > li > div:nth-child(2) div{
-    text-decoration: underline;
 }
 
 
