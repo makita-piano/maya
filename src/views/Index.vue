@@ -10,7 +10,7 @@
       <img id="top-jpg" src="kagamimaya.jpg" style="padding: 1rem" alt="kagamimaya-image">
     </div>
     <div class="grid col-12 margin-bottom-2">
-      <div class="grid-top-center col-6_sm-12 padding-0-2-pc padding-0-05-mobile">
+      <div class="grid-top-center col-6_sm-12 padding-0-12-pc padding-0-05-mobile">
         <div class="col-12 h3">
           Information
         </div>
@@ -52,7 +52,7 @@
         </RouterLink>
         </div>
       </div>
-      <div class="grid-top col-6_sm-12 padding-0-2-pc padding-0-05-mobile">
+      <div class="grid-top col-6_sm-12 padding-0-12-pc padding-0-05-mobile">
         <div class="col-12 h3 margin-top-2-mobile">
           SNS Acount
         </div>
