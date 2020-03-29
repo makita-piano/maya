@@ -265,8 +265,8 @@ footer div span{
     .display-none-pc {
         display: none !important;
     }
-    #body .padding-0-2-pc{
-        padding: 0 2rem;
+    #body .padding-0-12-pc{
+        padding: 0 1.2rem;
     }
 }
 
