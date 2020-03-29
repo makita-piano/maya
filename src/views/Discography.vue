@@ -12,36 +12,30 @@
     </div>
 </div>
 <div class="grid disco margin-bottom-1">
-  <p class="col-12" style="text-align: center">comming soon</p>
+  <div class="grid-center col-4_sm-12">
+      <div class="grid col-12_sm-9">
+          <a href="https://www.youtube.com/watch?v=3XbsjRd2nII" target="_blank">
+              <img src="y_01.jpg">
+          </a>
+      </div>
+      <div class="grid col-12">
+          <div class="col-12 disco-main-title">
+              Youtube／シューマン：森の情景
+          </div>
+          <div class="col-12 disco-sub-title">
+              秋吉台ミュージックアカデミー　菊地裕介個人レッスン　
+          </div>
+          <div class="col-12 disco-year">
+              2020.03.25
+          </div>
+      </div>
+  </div>
+</div>
 <!--
     <div class="grid-center col-4_sm-12">
         <div class="grid col-12_sm-9">
-            <a href="#">
-                <img src="tmp.jpg">
-            </a>
-        </div>
-        <div class="grid col-12">
-            <div class="col-12">
-                <a href="#">
-                    <div class="disco-bar"><span></span></div>
-                    <div class="disco-pointer"><img width="7" src="pointer.png"></div>
-                </a>
-            </div>
-            <div class="col-12 disco-main-title">
-                ドビュッシー：ベルガマスク組曲、12のエチュード
-            </div>
-            <div class="col-12 disco-sub-title">
-                フレンチピアニズムを継承するピアニスト菊地裕介が描くドビュッシー
-            </div>
-            <div class="col-12 disco-year">
-                2019.07.14
-            </div>
-        </div>
-    </div>
-    <div class="grid-center col-4_sm-12">
-        <div class="grid col-12_sm-9">
-            <a href="#">
-                <img src="piano_inu.png">
+            <a href="https://www.youtube.com/watch?v=3XbsjRd2nII">
+                <img src="/images/y_01.jpg">
             </a>
         </div>
         <div class="grid col-12">
