@@ -44,7 +44,7 @@
                   </div>
             </div>
         </li>
-       
+
         </ul>
         <div class="index-information-list">
         <RouterLink to="/information">
@@ -71,9 +71,38 @@
                 </a>
               </div>
             </li>
+            <li class="col-6_sm-12">
+              <div class="twitter">
+                <a href="https://twitter.com/mayakagami" target="_blank"  class="grid">
+                  <div class="col-1 social-icon">
+                    <img src="twitter_white.png">
+                  </div>
+                  <div class="col social-text">
+                    <div>Twitter</div>
+                    <div class="social-name">@mayakagami</div>
+                  </div>
+                </a>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
     </div>
   </v-content>
 </template>
+
+<script>
+  export default {
+    mounted(){
+      const title = "加々見 茉耶 official page"
+      const description = "加々見 茉耶(かがみ まや)の公式ページ。ピアニスト。兵庫県生まれ。5歳よりピアノを始める。 兵庫県立西宮高等学校音楽科を卒業し、東京藝術大学音楽学部器楽科ピアノ専攻に入学。第1回 ロザリオ・マルチアーノ国際ピアノコンクール（ウィーン）第2位。併せてシューベルト賞を受賞。 "
+      document.title = title
+      document.querySelector("meta[property='og:title']")
+      　.setAttribute('content', title)
+      document.querySelector("meta[name='description']")
+      　.setAttribute('content', description)
+      document.querySelector("meta[property='og:description']")
+      　.setAttribute('content', description)
+    }
+  }
+</script>
