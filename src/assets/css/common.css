@@ -294,6 +294,9 @@ footer div span{
     text-decoration: underline;
     margin: 1rem 0 2rem;
 }
+.index-information a{
+  text-decoration: underline;
+}
 .social li > div{
     width: auto;
     float: none;
