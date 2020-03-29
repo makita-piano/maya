@@ -71,6 +71,19 @@
                 </a>
               </div>
             </li>
+            <li class="col-6_sm-12">
+              <div class="twitter">
+                <a href="https://twitter.com/mayakagami" target="_blank"  class="grid">
+                  <div class="col-1 social-icon">
+                    <img src="twitter_white.png">
+                  </div>
+                  <div class="col social-text">
+                    <div>Twitter</div>
+                    <div class="social-name">@mayakagami</div>
+                  </div>
+                </a>
+              </div>
+            </li>
           </ul>
         </div>
       </div>
