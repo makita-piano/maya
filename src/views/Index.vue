@@ -32,7 +32,7 @@
       </div>
       <div class="grid-top col-6_sm-12 padding-0-12-pc padding-0-05-mobile">
         <div class="col-12 h3 margin-top-2-mobile">
-          SNS Acount
+          SNS Account
         </div>
         <div class="col-12">
           <ul class="grid social">
