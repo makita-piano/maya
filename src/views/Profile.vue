@@ -44,6 +44,8 @@
       　.setAttribute('content', description)
       document.querySelector("meta[property='og:url']")
       　.setAttribute('content', "https://kagamimaya.klavier.page/profile")
+      document.querySelector("link[rel=canonical]")
+       .setAttribute("href", "https://kagamimaya.klavier.page/profile");
     }
   }
 </script>
