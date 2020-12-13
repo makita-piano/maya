@@ -43,13 +43,15 @@
       const description = "加々見 茉耶 official pageのお知らせ一覧です。兵庫県生まれ。5歳よりピアノを始める。 兵庫県立西宮高等学校音楽科を卒業し、東京藝術大学音楽学部器楽科ピアノ専攻に入学。第1回 ロザリオ・マルチアーノ国際ピアノコンクール（ウィーン）第2位。併せてシューベルト賞を受賞。"
       document.title = title
       document.querySelector("meta[property='og:title']")
-      　.setAttribute('content', title)
+       .setAttribute('content', title)
       document.querySelector("meta[name='description']")
-      　.setAttribute('content', description)
+       .setAttribute('content', description)
       document.querySelector("meta[property='og:description']")
-      　.setAttribute('content', description)
+       .setAttribute('content', description)
       document.querySelector("meta[property='og:url']")
-      　.setAttribute('content', "https://kagamimaya.klavier.page/information")
+       .setAttribute('content', "https://kagamimaya.klavier.page/information")
+      document.querySelector("link[rel=canonical]")
+       .setAttribute("href", "https://kagamimaya.klavier.page/information")
     },
 
     created(){
