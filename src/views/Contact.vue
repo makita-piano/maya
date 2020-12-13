@@ -30,6 +30,8 @@
       　.setAttribute('content', description)
       document.querySelector("meta[property='og:description']")
       　.setAttribute('content', description)
+      document.querySelector("meta[property='og:url']")
+      　.setAttribute('content', "https://kagamimaya.klavier.page")
     }
   }
 </script>
