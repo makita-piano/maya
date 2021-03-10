@@ -63,12 +63,12 @@
               </div>
             </li>
             <li class="col-6_sm-12">
-              <div class="hatena">
+              <div style="background: #ccc">
                 <a href="https://mayakagami.hatenablog.com/" target="_blank"  class="grid">
                   <div class="col-1 social-icon">
-                    <img src="hatenablog-logo.svg">
+                    <img src="hatenablog-logo.svg" style="height: 4rem;padding: 0">
                   </div>
-                  <div class="col social-text">
+                  <div class="col social-text" style="color: #333">
                     <div>HatenaBlog</div>
                     <div class="social-name">id:mayakagami</div>
                   </div>
